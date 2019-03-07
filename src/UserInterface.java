@@ -8,6 +8,7 @@ public class UserInterface {
         frame.setSize(420, 100);
         frame.setResizable(false);
         View.addComponents(frame.getContentPane());
+        frame.setVisible(true);
     }
 }
 
